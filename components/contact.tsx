@@ -13,11 +13,11 @@ export function Contact() {
 
         <div className="space-y-6 mb-12">
           <a
-            href="tel:+244949110346"
+            href="tel:+244933150279"
             className="flex items-center justify-center gap-3 text-2xl font-semibold text-primary hover:text-primary/80 transition-colors"
           >
             <Phone className="w-8 h-8" />
-            <span>+ 244 949 110 346</span>
+            <span>+244 933 150 279</span>
           </a>
 
           <a

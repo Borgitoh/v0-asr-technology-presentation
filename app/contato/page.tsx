@@ -55,7 +55,7 @@ export default function ContatoPage() {
                 <Phone className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Telefone</h3>
-              <p className="text-muted-foreground">+244 949 110 346</p>
+              <p className="text-muted-foreground">+244 933 150 279</p>
               <p className="text-sm text-muted-foreground mt-1">Seg - Sex: 8h às 18h</p>
             </div>
 
