@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Instagram, Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
@@ -7,11 +8,14 @@ export function Footer() {
       <div className="container mx-auto max-w-7xl px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-foreground/10">
-                <span className="text-xl font-bold">ASR</span>
-              </div>
-              <span className="text-xl font-bold">Technology</span>
+            <div className="mb-4">
+              <Image
+                src="/logo.jpeg"
+                alt="ASR Technology"
+                width={240}
+                height={80}
+                className="h-16 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-primary-foreground/80 leading-relaxed">
               Empresa angolana especializada em consultoria tecnológica e fornecimento de equipamentos.
@@ -58,7 +62,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-primary-foreground/80">
                 <Phone className="w-4 h-4" />
-                <span>+244 949 110 346</span>
+                <span>+244 933 150 279</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/80">
                 <Mail className="w-4 h-4" />
